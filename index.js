@@ -22,7 +22,7 @@ function hoist(ast){
     var result = null
     for (var i=0;i<nodes.length;i++){
       var childNode = nodes[i]
-      if (childNode.type === 'EmptyStatement') return
+      if (childNode.type === 'EmptyStatement') continue
       var result = walk(childNode)
       if (result === 'remove'){
         nodes.splice(i--, 1)
