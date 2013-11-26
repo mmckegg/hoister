@@ -1,6 +1,6 @@
 {
   "name": "hoister",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Put all function and variable declarations at the top of the scope in an AST",
   "main": "index.js",
   "directories": {
